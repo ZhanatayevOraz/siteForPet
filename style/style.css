@@ -1,0 +1,149 @@
+.header_class {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.container {
+    margin: auto;
+    max-width: 1200px;
+}
+li {
+    list-style: none;
+    margin-left: 30px;
+    font-size: larger;
+}
+.nav_bar_ul {
+    font-size: large;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+
+.list:hover {
+    color:#E9473C;
+}
+.logo_place {
+    display: flex;
+    padding-top: 5px;
+}
+.logo_name {
+    margin-left: 12px;
+    color: #E9473C;
+    font-weight:bold;
+}
+.call {
+    display: flex;
+    font-size: large;
+}
+.number_text {
+    border-style: solid;
+    border-color: #E9473C;
+    border-radius: 1px;
+    margin-left: 20px;
+    color: #E9473C;
+    padding: 5px 5px 5px 5px ;
+}
+.number{
+    padding-top: 5px;
+}
+.main_photo{
+    position: relative;
+    z-index: 10;
+}
+.major_photo{
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    z-index: 5;
+}
+.minor_photo{
+    position: absolute;
+    top: 135px;
+    right: 150px;
+    z-index: 12;
+}
+.main_text{
+    max-width: 400px;
+    position: absolute;
+    top: 250px;
+    right: 855px;
+    z-index: 15;
+}
+.main_text_btn{
+    font-size: large;
+    border-style: none  ;
+    color: aliceblue;
+    background-color:#E9473C;
+    padding: 15px 20px 15px 20px;
+}
+.main_text_p{
+    font-size: large;
+}
+.product_ul{
+   margin-top: 23px;
+    display: flex;
+}
+.products{
+    margin-top: 100px;
+}
+.products_text{
+    display: flex;
+}
+.products_h2{
+    margin-bottom: 10px;
+}
+.product_li{
+    list-style: none;
+    cursor: pointer;
+}
+.product_li:hover{
+    color: #E9473C;
+}
+.product_image{
+    display: flex;
+    justify-content: space-between;
+}
+.about{
+    max-width: 1100px;
+    margin-top: 100px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.about_text{
+    font-size: large;
+}
+.read{
+    font-size: large;
+    margin-left: 100px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.footer_class {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #757575;
+    color: #c7c7c7;
+}
+.logo_name2 {
+    margin-left: 12px;  
+    color: #c7c7c7;
+    font-weight:bold;
+}
+.number_text2 {
+    border-style: solid;
+    border-color: #c7c7c7;
+    border-radius: 1px;
+    margin-left: 20px;
+    color: #c7c7c7;
+    padding: 5px 5px 5px 5px ;
+}
+.back{
+    
+    height:100px;
+    background-color: #757575;
+}
